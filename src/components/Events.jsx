@@ -1,9 +1,9 @@
-import thon from "../assets/events/thon.jpg";
-import garba from "../assets/events/garba.jpg";
-import alumni from "../assets/events/alumni.jpg";
-import moksha from "../assets/events/moksha.jpg";
-import scribble from "../assets/events/scribble.jpg";
-import farewell from "../assets/events/farewell.jpg";
+import thon from "/assets/events/thon.jpg";
+import garba from "/assets/events/garba.jpg";
+import alumni from "/assets/events/alumni.jpg";
+import moksha from "/assets/events/moksha.jpg";
+import scribble from "/assets/events/scribble.jpg";
+import farewell from "/assets/events/farewell.jpg";
 
 function Events() {
   const events = [

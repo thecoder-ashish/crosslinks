@@ -1,4 +1,4 @@
-import groupPhoto from "../assets/groupPhoto.png";
+import groupPhoto from "/assets/groupPhoto.png";
 
 function Hero() {
   return (

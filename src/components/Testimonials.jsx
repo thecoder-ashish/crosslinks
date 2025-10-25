@@ -1,13 +1,13 @@
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import mithilesh from "../assets/team/mithilesh.png";
-import abhinav from "../assets/team/abhinav.png";
-import akshath from "../assets/team/akshath.png";
-import aryan from "../assets/team/aryan.jpg";
-import gauri from "../assets/team/gauri.jpg";
-import prisha from "../assets/team/prisha.png";
-import sneha from "../assets/team/sneha.jpg";
-import udita from "../assets/team/udita.jpg";
+import mithilesh from "/assets/team/mithilesh.png";
+import abhinav from "/assets/team/abhinav.png";
+import akshath from "/assets/team/akshath.png";
+import aryan from "/assets/team/aryan.jpg";
+import gauri from "/assets/team/gauri.jpg";
+import prisha from "/assets/team/prisha.png";
+import sneha from "/assets/team/sneha.jpg";
+import udita from "/assets/team/udita.jpg";
 
 function Testimonials() {
   const testimonials = [
