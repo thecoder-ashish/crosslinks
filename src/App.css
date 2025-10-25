@@ -1,0 +1,330 @@
+/* Custom CSS for Crosslinks Website */
+
+/* Glassmorphism Effect */
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Static Blob Shapes */
+.static-blob-1 {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transform: translate(-200px, -200px);
+}
+
+.static-blob-2 {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  transform: translate(200px, -150px);
+}
+
+.static-blob-3 {
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 70%;
+  transform: translate(-100px, 200px);
+}
+
+.static-blob-4 {
+  border-radius: 50% 50% 30% 70% / 50% 30% 70% 50%;
+  transform: translate(150px, 180px);
+}
+
+.static-blob-5 {
+  border-radius: 70% 30% 50% 50% / 30% 70% 30% 70%;
+  transform: translate(-50px, -50px);
+}
+
+.static-blob-6 {
+  border-radius: 40% 60% 60% 40% / 60% 40% 40% 60%;
+  transform: translate(50px, -30px);
+}
+
+.static-blob-7 {
+  border-radius: 60% 40% 70% 30% / 40% 60% 30% 70%;
+  transform: translate(-30px, 50px);
+}
+
+.static-blob-8 {
+  border-radius: 30% 70% 40% 60% / 70% 30% 60% 40%;
+  transform: translate(-200px, -100px);
+}
+
+.static-blob-9 {
+  border-radius: 50% 50% 60% 40% / 50% 50% 40% 60%;
+  transform: translate(150px, -80px);
+}
+
+.static-blob-10 {
+  border-radius: 40% 60% 50% 50% / 60% 40% 50% 50%;
+  transform: translate(-100px, 100px);
+}
+
+.static-blob-11 {
+  border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
+  transform: translate(100px, 80px);
+}
+
+.static-blob-12 {
+  border-radius: 70% 30% 60% 40% / 30% 70% 40% 60%;
+  transform: translate(-50px, -30px);
+}
+
+.static-blob-13 {
+  border-radius: 30% 70% 40% 60% / 70% 30% 60% 40%;
+  transform: translate(50px, 30px);
+}
+
+.static-blob-14 {
+  border-radius: 50% 50% 70% 30% / 50% 50% 30% 70%;
+  transform: translate(-80px, -40px);
+}
+
+.static-blob-15 {
+  border-radius: 40% 60% 30% 70% / 60% 40% 70% 30%;
+  transform: translate(60px, 40px);
+}
+
+.static-blob-16 {
+  border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
+  transform: translate(-100px, -50px);
+}
+
+.static-blob-17 {
+  border-radius: 30% 70% 50% 50% / 70% 30% 50% 50%;
+  transform: translate(80px, -30px);
+}
+
+/* Large Blob Shape for Hero Section */
+.large-blob-shape {
+  border-radius: 40% 60% 70% 30% / 60% 40% 30% 70%;
+  transform: translate(16px, -8px);
+  box-shadow: 0 20px 40px rgba(34, 197, 94, 0.2);
+}
+
+/* Wave Shapes for Footer */
+.wave-layer-1 {
+  background: linear-gradient(to top, #064e3b 0%, #065f46 50%, rgba(6, 95, 70, 0.4) 100%);
+  border-radius: 100% 100% 0 0 / 20% 20% 0 0;
+}
+
+.wave-layer-2 {
+  background: linear-gradient(to top, #065f46 0%, #047857 50%, rgba(4, 120, 87, 0.3) 100%);
+  border-radius: 100% 100% 0 0 / 25% 25% 0 0;
+  transform: translateY(15px);
+}
+
+.wave-layer-3 {
+  background: linear-gradient(to top, #047857 0%, #059669 50%, rgba(5, 150, 105, 0.2) 100%);
+  border-radius: 100% 100% 0 0 / 30% 30% 0 0;
+  transform: translateY(30px);
+}
+
+.wave-layer-4 {
+  background: linear-gradient(to top, #059669 0%, #10b981 50%, rgba(16, 185, 129, 0.1) 100%);
+  border-radius: 100% 100% 0 0 / 35% 35% 0 0;
+  transform: translateY(45px);
+}
+
+/* Decorative Y shapes */
+.decorative-y {
+  position: absolute;
+  color: #4ade80;
+  opacity: 0.3;
+  font-weight: bold;
+  pointer-events: none;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #4ade80, #22c55e);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(74, 222, 128, 0.3);
+}
+
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+/* Glassmorphism Card Hover Effects */
+.glassmorphism-card {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.glassmorphism-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.glassmorphism-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(74, 222, 128, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glassmorphism-card:hover::before {
+  opacity: 1;
+}
+
+/* Gallery image hover effects */
+.gallery-item {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(74, 222, 128, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: inherit;
+}
+
+.gallery-item:hover::after {
+  opacity: 1;
+}
+
+/* Testimonial card styling */
+.testimonial-card {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #4ade80, #22c55e);
+  border-radius: inherit;
+  padding: 2px;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+/* Footer styling */
+.footer-section {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  position: relative;
+}
+
+.footer-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #4ade80, #22c55e, #4ade80);
+}
+
+/* Testimonial Slider Styles */
+.testimonial-slider {
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-nav-btn {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.testimonial-nav-btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+}
+
+.testimonial-dot {
+  transition: all 0.3s ease;
+}
+
+.testimonial-dot.active {
+  background: #4ade80;
+  transform: scale(1.2);
+}
+
+.testimonial-dot:hover {
+  background: #22c55e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blob-shape,
+  .blob-shape-2,
+  .blob-shape-3 {
+    display: none;
+  }
+
+  .decorative-y {
+    display: none;
+  }
+
+  .testimonial-nav-btn {
+    display: none;
+  }
+
+  .large-blob-shape {
+    transform: none;
+  }
+}
